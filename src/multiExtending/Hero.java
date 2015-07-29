@@ -16,8 +16,8 @@ public class Hero extends Human {
             super(sign);
         }
         
-        public String getHeroName() {
-            return getName();
+        public String getName() {
+            return Hero.this.getName();
         }
         
     }

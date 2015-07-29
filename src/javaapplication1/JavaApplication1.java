@@ -25,7 +25,7 @@ public class JavaApplication1 {
             
             Hero hero = new Hero("Rav");
             Hero.BlessedHero bh = hero.getBlessedHero("circle");
-            System.out.println(bh.getHeroName());
+            System.out.println(bh.getName());
             System.out.println(bh.getSign());
             
         } catch(Exception e) {
