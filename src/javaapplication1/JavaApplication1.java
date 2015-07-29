@@ -24,7 +24,9 @@ public class JavaApplication1 {
             rb.walk();
             
             Hero hero = new Hero("Rav");
-            Hero.BlessedHero = hero.BlessedHero("Square");
+            Hero.BlessedHero bh = hero.getBlessedHero("circle");
+            System.out.println(bh.getHeroName());
+            System.out.println(bh.getSign());
             
         } catch(Exception e) {
             System.out.println(e.getLocalizedMessage());
