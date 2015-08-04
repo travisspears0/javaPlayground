@@ -1,7 +1,6 @@
 package javaapplication1;
 
-import launchers.Files;
-import launchers.InnerClasses;
+import launchers.*;
 
 public class JavaApplication1 {
     
@@ -9,7 +8,8 @@ public class JavaApplication1 {
         try {
             
             //(new InnerClasses()).launch();
-            (new Files()).launch();
+            //(new Files()).launch();
+            (new Multithreading()).launch();
             
         } catch(Exception e) {
             System.out.println(e.getLocalizedMessage());
