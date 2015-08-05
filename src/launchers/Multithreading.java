@@ -1,5 +1,7 @@
 package launchers;
 
+import java.text.DecimalFormat;
+import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import multithreading.*;
@@ -34,6 +36,17 @@ public class Multithreading extends LauncherInterface.Launcher {
         /* */
         Join    j   = new Join(),
                 jj  = new Join(j);
+        /* *
+        double d = 0.0;
+        for( int i=0 ; i<10 ; ++i ) {
+            double r = (new Random()).nextDouble()*100;
+            r = (double)(int)r / 100;
+            d += r;
+            d *= 100;
+            d = (double)(int)d / 100;
+            System.out.println(""+d);
+        }
+        /* */
     }
     
 }
