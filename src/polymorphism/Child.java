@@ -15,4 +15,9 @@ public class Child extends Parent {
         this.foo();
     }
     
+    @Override
+    public String toString() {
+        return "child";
+    }
+    
 }

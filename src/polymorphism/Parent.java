@@ -11,5 +11,9 @@ package polymorphism;
  */
 public class Parent extends Grand {
     
+    @Override
+    public String toString() {
+        return "parent";
+    }
     
 }
